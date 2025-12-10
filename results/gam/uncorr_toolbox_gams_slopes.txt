@@ -1,0 +1,73 @@
+Flanker
+-------
+
+Standard deviations and 0.95 confidence intervals:
+
+                           std.dev      lower     upper
+s(Age):MeasureFlanker   0.05082797 0.02027919 0.1273958
+s(Age):MeasureNoFlanker 0.05557593 0.02156015 0.1432590
+s(Subject)              0.46283775 0.42729428 0.5013378
+s(Measure,Subject)      0.42487113 0.36605612 0.4931361
+scale                   0.35687795 0.29519628 0.4314481
+
+Rank: 4/5
+
+
+DCCS
+----
+
+Standard deviations and 0.95 confidence intervals:
+
+                        std.dev      lower      upper
+s(Age):MeasureDCCS   0.11178088 0.04443474 0.28119809
+s(Age):MeasureNoDCCS 0.04270101 0.01920663 0.09493472
+s(Subject)           0.46750469 0.43650296 0.50070825
+s(Measure,Subject)   0.30555603 0.25219683 0.37020484
+scale                0.36193662 0.31823194 0.41164351
+
+Rank: 4/5
+
+
+Pattern Comparison
+------------------
+
+Standard deviations and 0.95 confidence intervals:
+
+                                   std.dev      lower     upper
+s(Age):MeasurePatternComparison 0.05319437 0.02138468 0.1323210
+s(Age):MeasureNoPattern         0.05394736 0.02048146 0.1420952
+s(Subject)                      0.41207823 0.37889045 0.4481730
+s(Measure,Subject)              0.37348597 0.31371103 0.4446505
+scale                           0.35907624 0.30207087 0.4268394
+
+Rank: 4/5
+
+
+PSMT
+----
+
+Standard deviations and 0.95 confidence intervals:
+
+                        std.dev       lower     upper
+s(Age):MeasurePSMT   0.06959166 0.009126981 0.5306244
+s(Age):MeasureNoPSMT 0.04970980 0.022070444 0.1119626
+s(Subject)           0.38708131 0.342412951 0.4375767
+s(Measure,Subject)   0.55351721 0.000000000       Inf
+scale                0.36009629 0.000000000       Inf
+
+Rank: 5/5
+
+
+List Sorting
+------------
+
+Standard deviations and 0.95 confidence intervals:
+
+                             std.dev      lower     upper
+s(Age):MeasureListSorting 0.06627253 0.02314667 0.1897486
+s(Age):MeasureNoList      0.04639539 0.01964295 0.1095830
+s(Subject)                0.39063467 0.34809581 0.4383720
+s(Measure,Subject)        0.49998255 0.43228141 0.5782866
+scale                     0.39610458 0.32212843 0.4870692
+
+Rank: 4/5

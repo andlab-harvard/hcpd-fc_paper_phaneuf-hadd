@@ -1,0 +1,89 @@
+Flanker
+-------
+Significant region of age-related change: 8.01 15.6354544909091 
+Summary:
+	* Age : numeric predictor; with 200 values ranging from 8.010000 to 21.990000. 
+	* Subject : factor; set to the value(s): 1. (Might be canceled as random effect, check below.) 
+	* NOTE : The following random effects columns are canceled: s(Subject)
+ 
+	* Simultaneous 95%-CI used : 
+		Critical value: 2.928
+		Proportion posterior simulations in pointwise CI: 1 (10000 samples)
+		Proportion posterior simulations in simultaneous CI: 1 (10000 samples)
+ 
+
+Difference is not significant.
+
+
+DCCS
+----
+Significant region of age-related change: 8.99848484141414 13.2348484474747 14.929393889899 15.211818130303 
+Summary:
+	* Age : numeric predictor; with 200 values ranging from 8.010000 to 21.990000. 
+	* Subject : factor; set to the value(s): 1. (Might be canceled as random effect, check below.) 
+	* NOTE : The following random effects columns are canceled: s(Subject)
+ 
+	* Simultaneous 95%-CI used : 
+		Critical value: 2.973
+		Proportion posterior simulations in pointwise CI: 1 (10000 samples)
+		Proportion posterior simulations in simultaneous CI: 1 (10000 samples)
+ 
+
+Age window(s) of significant difference(s):
+	8.220754 - 10.890302
+	16.229397 - 17.212915
+
+
+Pattern Comparison
+------------------
+Significant region of age-related change: 8.01 16.9063635727273 
+Summary:
+	* Age : numeric predictor; with 200 values ranging from 8.010000 to 21.990000. 
+	* Subject : factor; set to the value(s): 1. (Might be canceled as random effect, check below.) 
+	* NOTE : The following random effects columns are canceled: s(Subject)
+ 
+	* Simultaneous 95%-CI used : 
+		Critical value: 2.934
+		Proportion posterior simulations in pointwise CI: 1 (10000 samples)
+		Proportion posterior simulations in simultaneous CI: 1 (10000 samples)
+ 
+
+Age window(s) of significant difference(s):
+	8.220754 - 12.646583
+	16.861658 - 21.990000
+
+
+PSMT
+----
+Significant region of age-related change: 9.13969696161616 13.5172726878788 14.6469696494949 14.929393889899 
+Summary:
+	* Age : numeric predictor; with 200 values ranging from 8.010000 to 21.990000. 
+	* Subject : factor; set to the value(s): 1. (Might be canceled as random effect, check below.) 
+	* NOTE : The following random effects columns are canceled: s(Subject)
+ 
+	* Simultaneous 95%-CI used : 
+		Critical value: 2.958
+		Proportion posterior simulations in pointwise CI: 1 (10000 samples)
+		Proportion posterior simulations in simultaneous CI: 1 (10000 samples)
+ 
+
+Age window(s) of significant difference(s):
+	8.010000 - 9.696030
+
+
+List Sorting
+------------
+Significant region of age-related change: 8.01 14.5057575292929 
+Summary:
+	* Age : numeric predictor; with 200 values ranging from 8.010000 to 21.990000. 
+	* Subject : factor; set to the value(s): 1. (Might be canceled as random effect, check below.) 
+	* NOTE : The following random effects columns are canceled: s(Subject)
+ 
+	* Simultaneous 95%-CI used : 
+		Critical value: 2.904
+		Proportion posterior simulations in pointwise CI: 1 (10000 samples)
+		Proportion posterior simulations in simultaneous CI: 1 (10000 samples)
+ 
+
+Age window(s) of significant difference(s):
+	19.320452 - 21.287487

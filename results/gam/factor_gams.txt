@@ -1,0 +1,149 @@
+CgCn Age GAM
+------------
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-1.884349e-05,2.34855e-05]
+(score 755.9196 & scale 0.2429391).
+Hessian positive definite, eigenvalue range [1.146533,523.5055].
+Model rank =  10 / 10 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+         k'  edf k-index p-value
+s(Age) 9.00 4.38       1    0.53
+
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+CgCn ~ s(Age)
+
+Parametric coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept) 2.723e-17  1.522e-02       0        1
+
+Approximate significance of smooth terms:
+         edf Ref.df     F p-value    
+s(Age) 4.383   5.39 196.1  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.502   Deviance explained = 50.4%
+-REML = 755.92  Scale est. = 0.24294   n = 1049
+
+
+Mmry Age GAM
+------------
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-0.0001377463,0.0001944849]
+(score 442.7986 & scale 0.1334581).
+Hessian positive definite, eigenvalue range [0.8550061,523.5065].
+Model rank =  10 / 10 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+         k'  edf k-index p-value
+s(Age) 9.00 4.66    0.99    0.45
+
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+Mmry ~ s(Age)
+
+Parametric coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept) -4.539e-18  1.128e-02       0        1
+
+Approximate significance of smooth terms:
+         edf Ref.df     F p-value    
+s(Age) 4.656  5.705 151.1  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.451   Deviance explained = 45.4%
+-REML =  442.8  Scale est. = 0.13346   n = 1049
+
+
+Factor GAM
+----------
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-6.430251e-06,5.824137e-06]
+(score 775.8892 & scale 0.0433267).
+Hessian positive definite, eigenvalue range [1.571262,1280.266].
+Model rank =  1069 / 1069 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+                       k'     edf k-index p-value
+s(Age):FactorCgCn    9.00    4.89    1.38       1
+s(Age):FactorMmry    9.00    4.11    1.38       1
+s(Subject)        1049.00  908.87      NA      NA
+
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+Score ~ s(Age, by = Factor) + Factor + s(Subject, bs = "re")
+
+Parametric coefficients:
+              Estimate Std. Error t value Pr(>|t|)
+(Intercept) -1.433e-16  1.340e-02       0        1
+FactorMmry   5.205e-17  9.089e-03       0        1
+
+Approximate significance of smooth terms:
+                      edf   Ref.df       F p-value    
+s(Age):FactorCgCn   4.885    5.616 242.122  <2e-16 ***
+s(Age):FactorMmry   4.107    4.626 130.818  <2e-16 ***
+s(Subject)        908.867 1047.000   6.662  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.881   Deviance explained = 93.3%
+-REML = 775.89  Scale est. = 0.043327  n = 2098
+
+
+Significant Ages
+----------------
+Significant region of CgCn age-related change: 8.01 16.4827272121212 
+Significant region of Mmry age-related change: 8.01 15.9178787313131 
+Summary:
+	* Age : numeric predictor; with 200 values ranging from 8.010000 to 21.990000. 
+	* Subject : factor; set to the value(s): 1. (Might be canceled as random effect, check below.) 
+	* NOTE : The following random effects columns are canceled: s(Subject)
+ 
+	* Simultaneous 95%-CI used : 
+		Critical value: 2.973
+		Proportion posterior simulations in pointwise CI: 1 (10000 samples)
+		Proportion posterior simulations in simultaneous CI: 1 (10000 samples)
+ 
+
+Age window(s) of significant difference(s):
+	8.010000 - 11.803568
+	14.543367 - 21.990000
+
+
+Random Effects
+--------------
+
+Standard deviations and 0.95 confidence intervals:
+
+                     std.dev      lower      upper
+s(Age):FactorCgCn 0.03901492 0.01879928 0.08096927
+s(Age):FactorMmry 0.02908107 0.01375964 0.06146301
+s(Subject)        0.38092937 0.36243649 0.40036582
+s(Factor,Subject) 0.14620798 0.00000000        Inf
+scale             0.14815509 0.00000000        Inf
+
+Rank: 5/5

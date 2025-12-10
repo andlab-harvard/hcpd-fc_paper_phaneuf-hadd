@@ -1,0 +1,183 @@
+Flanker
+-------
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-2.510944e-08,1.043241e-09]
+(score 1345.164 & scale 0.7509734).
+Hessian positive definite, eigenvalue range [1.034857,523.5027].
+Model rank =  10 / 10 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+         k'  edf k-index p-value
+s(Age) 9.00 3.39    0.98     0.3
+
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+Flanker ~ s(Age)
+
+Parametric coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept) 1.907e-11  2.676e-02       0        1
+
+Approximate significance of smooth terms:
+         edf Ref.df     F p-value    
+s(Age) 3.391  4.211 82.77  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.249   Deviance explained = 25.1%
+-REML = 1345.2  Scale est. = 0.75097   n = 1049
+
+
+DCCS
+----
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-0.0001992026,-9.098964e-05]
+(score 1217.577 & scale 0.5853105).
+Hessian positive definite, eigenvalue range [0.63494,523.5083].
+Model rank =  10 / 10 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+         k'  edf k-index p-value
+s(Age) 9.00 5.13       1    0.45
+
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+DCCS ~ s(Age)
+
+Parametric coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept) 2.288e-11  2.362e-02       0        1
+
+Approximate significance of smooth terms:
+         edf Ref.df     F p-value    
+s(Age) 5.134  6.243 119.2  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.415   Deviance explained = 41.8%
+-REML = 1217.6  Scale est. = 0.58531   n = 1049
+
+
+Pattern Comparison
+------------------
+
+Method: REML   Optimizer: outer newton
+full convergence after 5 iterations.
+Gradient range [-0.0004103531,0.0001844804]
+(score 1181.139 & scale 0.5483903).
+Hessian positive definite, eigenvalue range [1.192136,523.5041].
+Model rank =  10 / 10 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+         k'  edf k-index p-value
+s(Age) 9.00 3.76    1.01    0.65
+
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+PatternComparison ~ s(Age)
+
+Parametric coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept) 7.626e-12  2.286e-02       0        1
+
+Approximate significance of smooth terms:
+         edf Ref.df     F p-value    
+s(Age) 3.761  4.656 185.5  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.452   Deviance explained = 45.4%
+-REML = 1181.1  Scale est. = 0.54839   n = 1049
+
+
+PSMT
+----
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-2.168789e-07,6.058092e-09]
+(score 1412.191 & scale 0.8538395).
+Hessian positive definite, eigenvalue range [0.6237504,523.5025].
+Model rank =  10 / 10 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+         k'  edf k-index p-value
+s(Age) 9.00 3.27    1.01    0.61
+
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+PSMT ~ s(Age)
+
+Parametric coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept) 3.718e-11  2.853e-02       0        1
+
+Approximate significance of smooth terms:
+         edf Ref.df     F p-value    
+s(Age) 3.268  4.062 44.22  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.146   Deviance explained = 14.9%
+-REML = 1412.2  Scale est. = 0.85384   n = 1049
+
+
+List Sorting
+------------
+
+Method: REML   Optimizer: outer newton
+full convergence after 6 iterations.
+Gradient range [-4.016935e-06,4.908223e-06]
+(score 1377.47 & scale 0.7979544).
+Hessian positive definite, eigenvalue range [1.039293,523.5036].
+Model rank =  10 / 10 
+
+Basis dimension (k) checking results. Low p-value (k-index<1) may
+indicate that k is too low, especially if edf is close to k'.
+
+         k'  edf k-index p-value
+s(Age) 9.00 3.75    1.04    0.85
+
+
+Family: gaussian 
+Link function: identity 
+
+Formula:
+ListSorting ~ s(Age)
+
+Parametric coefficients:
+             Estimate Std. Error t value Pr(>|t|)
+(Intercept) 2.202e-10  2.758e-02       0        1
+
+Approximate significance of smooth terms:
+         edf Ref.df     F p-value    
+s(Age) 3.751  4.645 57.19  <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+R-sq.(adj) =  0.202   Deviance explained = 20.5%
+-REML = 1377.5  Scale est. = 0.79795   n = 1049
