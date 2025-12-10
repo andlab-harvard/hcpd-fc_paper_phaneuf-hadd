@@ -1,0 +1,54 @@
+All Participants
+----------------
+Total N: 1049 
+
+AGE
+---
+Youngest Age: 8.01 
+Oldest Age: 21.99 
+Mean Age: 14.21516 
+Standard Deviation Age: 3.99707 
+Percent 8-10 Years: 29.17064 
+Percent 11-13 Years: 21.25834 
+Percent 14-17 Years: 28.31268 
+Percent 18-21 Years: 21.25834 
+
+SEX
+---
+Percent Female: 50.52431 
+Percent Male: 49.47569 
+
+RACE
+----
+Percent Asian: 7.054337 
+Percent American Indian/Alaska Native: 0.2859867 
+Percent Black or African American: 12.96473 
+Percent Hawaiian or Pacific Islander: 0.1906578 
+Percent White: 61.10582 
+Percent More than one race: 15.82459 
+Percent Unknown or not reported: 2.57388 
+
+ETHNICITY
+---------
+Percent Hispanic or Latino: 15.82459 
+Percent Not Hispanic or Latino: 82.74547 
+Percent Unknown or not reported: 1.429933 
+
+FAMILY INCOME
+------------
+Percent <25k: 17.73117 
+Percent 25k-49k: 7.435653 
+Percent 50k-74k: 8.007626 
+Percent 75k-99k: 9.532888 
+Percent 100k-199k: 30.31459 
+Percent 200k+: 15.72927 
+Percent Unknown or not reported: 11.24881 
+
+GUARDIAN HIGHEST EDUCATION
+--------------------------
+Percent Incomplete High School: 4.003813 
+Percent High School: 8.007626 
+Percent 1-3 Years of College: 26.21544 
+Percent Bachelor's: 31.26787 
+Percent Postgraduate: 30.21926 
+Percent Unknown or not reported: 0.2859867 

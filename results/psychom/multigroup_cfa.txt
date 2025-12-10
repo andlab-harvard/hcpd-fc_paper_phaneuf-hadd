@@ -1,0 +1,425 @@
+LIKELIHOOD RATIO TEST
+
+Chi-Squared Difference Test
+
+           Df   AIC   BIC  Chisq Chisq diff RMSEA Df diff Pr(>Chisq)
+fit_weak   25 12398 12671 24.333                                    
+fit_strong 28 12394 12652 25.998     1.6653     0       3     0.6447
+
+FULL (WEAK INVARIANCE) SUMMARY OUTPUT
+
+lavaan 0.6-19 ended normally after 85 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        70
+  Number of equality constraints                    15
+
+  Number of observations per group:                   
+    11-13 Years                                    223
+    14-17 Years                                    297
+    8-10 Years                                     306
+    18-21 Years                                    223
+
+Model Test User Model:
+                                                      
+  Test statistic                                24.333
+  Degrees of freedom                                25
+  P-value (Chi-square)                           0.500
+  Test statistic for each group:
+    11-13 Years                                  5.119
+    14-17 Years                                  6.627
+    8-10 Years                                  11.256
+    18-21 Years                                  1.331
+
+Model Test Baseline Model:
+
+  Test statistic                               855.009
+  Degrees of freedom                                40
+  P-value                                        0.000
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    1.000
+  Tucker-Lewis Index (TLI)                       1.001
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -6144.104
+  Loglikelihood unrestricted model (H1)      -6131.938
+                                                      
+  Akaike (AIC)                               12398.209
+  Bayesian (BIC)                             12670.766
+  Sample-size adjusted Bayesian (SABIC)      12496.078
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.000
+  90 Percent confidence interval - lower         0.000
+  90 Percent confidence interval - upper         0.048
+  P-value H_0: RMSEA <= 0.050                    0.961
+  P-value H_0: RMSEA >= 0.080                    0.000
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.034
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+
+Group 1 [11-13 Years]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn =~                                             
+    Flnk    (.p1.)    0.581    0.046   12.694    0.000
+    DCCS    (.p2.)    0.603    0.045   13.405    0.000
+    PnCn    (.p3.)    0.437    0.036   12.098    0.000
+  Mmry =~                                             
+    PSMT    (.p4.)    0.456    0.062    7.332    0.000
+    LtSg    (.p5.)    0.510    0.068    7.509    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn ~~                                             
+    Mmry              0.494    0.105    4.703    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.013    0.061    0.209    0.834
+   .DCCS              0.037    0.053    0.697    0.486
+   .PnCn             -0.163    0.051   -3.199    0.001
+   .PSMT              0.029    0.060    0.485    0.628
+   .LtSg              0.021    0.057    0.370    0.712
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.491    0.059    8.267    0.000
+   .DCCS              0.258    0.044    5.855    0.000
+   .PnCn              0.387    0.043    8.969    0.000
+   .PSMT              0.587    0.074    7.981    0.000
+   .LtSg              0.456    0.074    6.165    0.000
+    CgCn              1.000                           
+    Mmry              1.000                           
+
+
+Group 2 [14-17 Years]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn =~                                             
+    Flnk    (.p1.)    0.581    0.046   12.694    0.000
+    DCCS    (.p2.)    0.603    0.045   13.405    0.000
+    PnCn    (.p3.)    0.437    0.036   12.098    0.000
+  Mmry =~                                             
+    PSMT    (.p4.)    0.456    0.062    7.332    0.000
+    LtSg    (.p5.)    0.510    0.068    7.509    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn ~~                                             
+    Mmry              0.623    0.142    4.397    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.268    0.049    5.437    0.000
+   .DCCS              0.451    0.048    9.460    0.000
+   .PnCn              0.455    0.046    9.975    0.000
+   .PSMT              0.256    0.056    4.617    0.000
+   .LtSg              0.371    0.052    7.126    0.000
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.333    0.041    8.203    0.000
+   .DCCS              0.255    0.038    6.736    0.000
+   .PnCn              0.397    0.038   10.470    0.000
+   .PSMT              0.717    0.074    9.623    0.000
+   .LtSg              0.554    0.073    7.593    0.000
+    CgCn              1.156    0.201    5.753    0.000
+    Mmry              0.958    0.310    3.095    0.002
+
+
+Group 3 [8-10 Years]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn =~                                             
+    Flnk    (.p1.)    0.581    0.046   12.694    0.000
+    DCCS    (.p2.)    0.603    0.045   13.405    0.000
+    PnCn    (.p3.)    0.437    0.036   12.098    0.000
+  Mmry =~                                             
+    PSMT    (.p4.)    0.456    0.062    7.332    0.000
+    LtSg    (.p5.)    0.510    0.068    7.509    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn ~~                                             
+    Mmry              0.633    0.137    4.622    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk             -0.699    0.054  -13.064    0.000
+   .DCCS             -0.911    0.045  -20.144    0.000
+   .PnCn             -0.885    0.042  -21.163    0.000
+   .PSMT             -0.548    0.049  -11.178    0.000
+   .LtSg             -0.637    0.052  -12.268    0.000
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.524    0.053    9.888    0.000
+   .DCCS              0.246    0.037    6.645    0.000
+   .PnCn              0.336    0.033   10.191    0.000
+   .PSMT              0.529    0.059    8.889    0.000
+   .LtSg              0.567    0.069    8.214    0.000
+    CgCn              1.042    0.184    5.659    0.000
+    Mmry              0.987    0.300    3.293    0.001
+
+
+Group 4 [18-21 Years]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn =~                                             
+    Flnk    (.p1.)    0.581    0.046   12.694    0.000
+    DCCS    (.p2.)    0.603    0.045   13.405    0.000
+    PnCn    (.p3.)    0.437    0.036   12.098    0.000
+  Mmry =~                                             
+    PSMT    (.p4.)    0.456    0.062    7.332    0.000
+    LtSg    (.p5.)    0.510    0.068    7.509    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn ~~                                             
+    Mmry              0.466    0.135    3.443    0.001
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.589    0.051   11.471    0.000
+   .DCCS              0.612    0.049   12.526    0.000
+   .PnCn              0.771    0.051   15.058    0.000
+   .PSMT              0.381    0.068    5.637    0.000
+   .LtSg              0.359    0.064    5.604    0.000
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.298    0.041    7.345    0.000
+   .DCCS              0.220    0.037    5.954    0.000
+   .PnCn              0.421    0.045    9.397    0.000
+   .PSMT              0.805    0.097    8.317    0.000
+   .LtSg              0.650    0.097    6.726    0.000
+    CgCn              0.858    0.163    5.269    0.000
+    Mmry              1.024    0.368    2.779    0.005
+
+
+FULL (STRONG INVARIANCE) SUMMARY OUTPUT
+
+lavaan 0.6-19 ended normally after 64 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        70
+  Number of equality constraints                    18
+
+  Number of observations per group:                   
+    11-13 Years                                    223
+    14-17 Years                                    297
+    8-10 Years                                     306
+    18-21 Years                                    223
+
+Model Test User Model:
+                                                      
+  Test statistic                                25.998
+  Degrees of freedom                                28
+  P-value (Chi-square)                           0.573
+  Test statistic for each group:
+    11-13 Years                                  5.493
+    14-17 Years                                  6.725
+    8-10 Years                                  11.841
+    18-21 Years                                  1.940
+
+Model Test Baseline Model:
+
+  Test statistic                               855.009
+  Degrees of freedom                                40
+  P-value                                        0.000
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    1.000
+  Tucker-Lewis Index (TLI)                       1.004
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -6144.937
+  Loglikelihood unrestricted model (H1)      -6131.938
+                                                      
+  Akaike (AIC)                               12393.874
+  Bayesian (BIC)                             12651.565
+  Sample-size adjusted Bayesian (SABIC)      12486.405
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.000
+  90 Percent confidence interval - lower         0.000
+  90 Percent confidence interval - upper         0.043
+  P-value H_0: RMSEA <= 0.050                    0.979
+  P-value H_0: RMSEA >= 0.080                    0.000
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.039
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+
+Group 1 [11-13 Years]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn =~                                             
+    Flnk    (.p1.)    0.592    0.044   13.525    0.000
+    DCCS    (.p2.)    0.612    0.043   14.363    0.000
+    PnCn    (.p3.)    0.445    0.035   12.787    0.000
+  Mmry =~                                             
+    PSMT    (.p4.)    0.470    0.060    7.803    0.000
+    LtSg    (.p5.)    0.521    0.065    8.002    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn ~~                                             
+    Mmry    (.13.)    0.542    0.072    7.512    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.013    0.061    0.207    0.836
+   .DCCS              0.037    0.053    0.690    0.490
+   .PnCn             -0.163    0.051   -3.182    0.001
+   .PSMT              0.029    0.060    0.482    0.630
+   .LtSg              0.021    0.057    0.366    0.714
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.491    0.059    8.262    0.000
+   .DCCS              0.259    0.044    5.884    0.000
+   .PnCn              0.386    0.043    8.950    0.000
+   .PSMT              0.586    0.074    7.947    0.000
+   .LtSg              0.457    0.074    6.192    0.000
+    CgCn              1.000                           
+    Mmry              1.000                           
+
+
+Group 2 [14-17 Years]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn =~                                             
+    Flnk    (.p1.)    0.592    0.044   13.525    0.000
+    DCCS    (.p2.)    0.612    0.043   14.363    0.000
+    PnCn    (.p3.)    0.445    0.035   12.787    0.000
+  Mmry =~                                             
+    PSMT    (.p4.)    0.470    0.060    7.803    0.000
+    LtSg    (.p5.)    0.521    0.065    8.002    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn ~~                                             
+    Mmry    (.13.)    0.542    0.072    7.512    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.268    0.049    5.472    0.000
+   .DCCS              0.451    0.047    9.533    0.000
+   .PnCn              0.455    0.045   10.010    0.000
+   .PSMT              0.256    0.055    4.631    0.000
+   .LtSg              0.371    0.052    7.184    0.000
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.332    0.041    8.185    0.000
+   .DCCS              0.256    0.038    6.769    0.000
+   .PnCn              0.396    0.038   10.456    0.000
+   .PSMT              0.717    0.075    9.594    0.000
+   .LtSg              0.552    0.073    7.605    0.000
+    CgCn              1.093    0.172    6.359    0.000
+    Mmry              0.875    0.263    3.330    0.001
+
+
+Group 3 [8-10 Years]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn =~                                             
+    Flnk    (.p1.)    0.592    0.044   13.525    0.000
+    DCCS    (.p2.)    0.612    0.043   14.363    0.000
+    PnCn    (.p3.)    0.445    0.035   12.787    0.000
+  Mmry =~                                             
+    PSMT    (.p4.)    0.470    0.060    7.803    0.000
+    LtSg    (.p5.)    0.521    0.065    8.002    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn ~~                                             
+    Mmry    (.13.)    0.542    0.072    7.512    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk             -0.699    0.053  -13.151    0.000
+   .DCCS             -0.911    0.045  -20.322    0.000
+   .PnCn             -0.885    0.042  -21.295    0.000
+   .PSMT             -0.548    0.049  -11.268    0.000
+   .LtSg             -0.637    0.052  -12.351    0.000
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.523    0.053    9.872    0.000
+   .DCCS              0.249    0.037    6.702    0.000
+   .PnCn              0.335    0.033   10.163    0.000
+   .PSMT              0.526    0.060    8.828    0.000
+   .LtSg              0.571    0.069    8.266    0.000
+    CgCn              0.976    0.156    6.264    0.000
+    Mmry              0.891    0.249    3.572    0.000
+
+
+Group 4 [18-21 Years]:
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn =~                                             
+    Flnk    (.p1.)    0.592    0.044   13.525    0.000
+    DCCS    (.p2.)    0.612    0.043   14.363    0.000
+    PnCn    (.p3.)    0.445    0.035   12.787    0.000
+  Mmry =~                                             
+    PSMT    (.p4.)    0.470    0.060    7.803    0.000
+    LtSg    (.p5.)    0.521    0.065    8.002    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn ~~                                             
+    Mmry    (.13.)    0.542    0.072    7.512    0.000
+
+Intercepts:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.589    0.052   11.350    0.000
+   .DCCS              0.612    0.049   12.366    0.000
+   .PnCn              0.771    0.052   14.956    0.000
+   .PSMT              0.381    0.068    5.592    0.000
+   .LtSg              0.359    0.065    5.537    0.000
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.298    0.041    7.323    0.000
+   .DCCS              0.221    0.037    5.982    0.000
+   .PnCn              0.421    0.045    9.387    0.000
+   .PSMT              0.803    0.097    8.278    0.000
+   .LtSg              0.652    0.097    6.760    0.000
+    CgCn              0.867    0.148    5.874    0.000
+    Mmry              1.052    0.336    3.133    0.002
+

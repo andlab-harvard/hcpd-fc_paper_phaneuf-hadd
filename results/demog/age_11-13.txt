@@ -1,0 +1,7 @@
+11-13 Years
+-----------
+Total N: 223 
+Total Female: 134 
+Total Male: 89 
+Mean Age: 12.57673 
+Standard Deviation Age: 0.8737027 

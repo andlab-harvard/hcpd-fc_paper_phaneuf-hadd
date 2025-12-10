@@ -1,0 +1,19 @@
+LR-Test
+-------
+
+Chi-Squared Difference Test
+
+           Df   AIC   BIC  Chisq Chisq diff RMSEA Df diff Pr(>Chisq)
+fit_weak   25 12398 12671 24.333                                    
+fit_strong 28 12394 12652 25.998     1.6653     0       3     0.6447
+
+
+rmsea1 Parameter Values
+-----------------------
+[1] 0.08 0.09 0.10 0.11 0.12
+
+
+Power Values
+------------
+RMSEA1 0.08 RMSEA1 0.09  RMSEA1 0.1 RMSEA1 0.11 RMSEA1 0.12 
+      0.493       0.702       0.860       0.949       0.985 

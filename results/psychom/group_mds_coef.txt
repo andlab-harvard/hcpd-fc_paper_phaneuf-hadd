@@ -1,0 +1,55 @@
+Children vs. Adults
+-------------------
+
+Call: smacof::Procrustes(X = fit_adult_mds$conf, Y = fit_child_mds$conf)
+
+Congruence coefficient: 0.979
+Alienation coefficient: 0.203
+Correlation coefficient: 0.826
+
+Rotation matrix:
+       D1     D2
+D1  0.998 -0.063
+D2 -0.063 -0.998
+
+Translation vector: 0 0 
+Dilation factor: 0.825 
+
+
+
+Early Adolescence vs. Adults
+----------------------------
+
+Call: smacof::Procrustes(X = fit_adult_mds$conf, Y = fit_earlyado_mds$conf)
+
+Congruence coefficient: 0.971
+Alienation coefficient: 0.239
+Correlation coefficient: 0.807
+
+Rotation matrix:
+       D1    D2
+D1 -1.000 0.023
+D2  0.023 1.000
+
+Translation vector: 0 0 
+Dilation factor: 0.808 
+
+
+
+Late Adolescence vs. Adults
+---------------------------
+
+Call: smacof::Procrustes(X = fit_adult_mds$conf, Y = fit_lateado_mds$conf)
+
+Congruence coefficient: 0.993
+Alienation coefficient: 0.119
+Correlation coefficient: 0.988
+
+Rotation matrix:
+      D1     D2
+D1 0.990  0.143
+D2 0.143 -0.990
+
+Translation vector: 0 0 
+Dilation factor: 0.988 
+

@@ -1,0 +1,16 @@
+Children vs. Adults
+-------------------
+ PSMT  LtSg  DCCS  Flnk  PnCn 
+0.104 0.280 0.305 0.348 0.576 
+
+
+Early Adolescence vs. Adults
+----------------------------
+ PSMT  DCCS  LtSg  Flnk  PnCn 
+0.139 0.142 0.248 0.415 0.649 
+
+
+Late Adolescence vs. Adults
+---------------------------
+ Flnk  PSMT  LtSg  PnCn  DCCS 
+0.062 0.086 0.089 0.111 0.123 

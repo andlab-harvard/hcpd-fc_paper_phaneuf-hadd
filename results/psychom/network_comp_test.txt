@@ -1,0 +1,155 @@
+Children vs. Early Adolescence
+------------------------------
+
+ NETWORK INVARIANCE TEST 
+ Test statistic M: 
+ 0.1390809 
+ p-value 0.4820717 
+
+ GLOBAL STRENGTH INVARIANCE TEST 
+ Global strength per group:  1.497217 1.498662 
+ Test statistic S:  0.001444683 
+ p-value 0.9920319
+
+ EDGE INVARIANCE TEST 
+   Var1 Var2   p-value Test statistic E
+6  Flnk DCCS 1.0000000       0.02905861
+11 Flnk PnCn 1.0000000       0.10959693
+12 DCCS PnCn 0.4780876       0.13908087
+16 Flnk PSMT 1.0000000       0.00039330
+17 DCCS PSMT 1.0000000       0.06366508
+18 PnCn PSMT 1.0000000       0.05706393
+21 Flnk LtSg 1.0000000       0.01781692
+22 DCCS LtSg 1.0000000       0.12684999
+23 PnCn LtSg 1.0000000       0.06778177
+24 PSMT LtSg 1.0000000       0.04926511
+
+Children vs. Late Adolescence
+-----------------------------
+
+ NETWORK INVARIANCE TEST 
+ Test statistic M: 
+ 0.1445238 
+ p-value 0.3625498 
+
+ GLOBAL STRENGTH INVARIANCE TEST 
+ Global strength per group:  1.497217 1.598066 
+ Test statistic S:  0.1008486 
+ p-value 0.1354582
+
+ EDGE INVARIANCE TEST 
+   Var1 Var2   p-value Test statistic E
+6  Flnk DCCS 1.0000000       0.01083616
+11 Flnk PnCn 1.0000000       0.05070697
+12 DCCS PnCn 1.0000000       0.04635469
+16 Flnk PSMT 1.0000000       0.00305967
+17 DCCS PSMT 1.0000000       0.03150515
+18 PnCn PSMT 1.0000000       0.09201651
+21 Flnk LtSg 1.0000000       0.05953747
+22 DCCS LtSg 0.6772908       0.14452379
+23 PnCn LtSg 1.0000000       0.03629470
+24 PSMT LtSg 1.0000000       0.00623023
+
+Children vs. Adults
+-------------------
+
+ NETWORK INVARIANCE TEST 
+ Test statistic M: 
+ 0.1018524 
+ p-value 0.8884462 
+
+ GLOBAL STRENGTH INVARIANCE TEST 
+ Global strength per group:  1.497217 1.342867 
+ Test statistic S:  0.1543505 
+ p-value 0.02788845
+
+ EDGE INVARIANCE TEST 
+   Var1 Var2 p-value Test statistic E
+6  Flnk DCCS       1       0.03141608
+11 Flnk PnCn       1       0.01492361
+12 DCCS PnCn       1       0.01723683
+16 Flnk PSMT       1       0.06536193
+17 DCCS PSMT       1       0.09220582
+18 PnCn PSMT       1       0.04015071
+21 Flnk LtSg       1       0.02398667
+22 DCCS LtSg       1       0.10185243
+23 PnCn LtSg       1       0.06596655
+24 PSMT LtSg       1       0.02308071
+
+Early Adolescence vs. Late Adolescence
+--------------------------------------
+
+ NETWORK INVARIANCE TEST 
+ Test statistic M: 
+ 0.1603039 
+ p-value 0.3426295 
+
+ GLOBAL STRENGTH INVARIANCE TEST 
+ Global strength per group:  1.498662 1.598066 
+ Test statistic S:  0.09940388 
+ p-value 0.501992
+
+ EDGE INVARIANCE TEST 
+   Var1 Var2   p-value Test statistic E
+6  Flnk DCCS 1.0000000       0.03989477
+11 Flnk PnCn 0.7171315       0.16030390
+12 DCCS PnCn 1.0000000       0.09272618
+16 Flnk PSMT 1.0000000       0.00266636
+17 DCCS PSMT 1.0000000       0.09517024
+18 PnCn PSMT 1.0000000       0.03495257
+21 Flnk LtSg 1.0000000       0.04172056
+22 DCCS LtSg 1.0000000       0.01767380
+23 PnCn LtSg 1.0000000       0.10407647
+24 PSMT LtSg 1.0000000       0.05549535
+
+Early Adolescence vs. Adults
+----------------------------
+
+ NETWORK INVARIANCE TEST 
+ Test statistic M: 
+ 0.1563177 
+ p-value 0.4820717 
+
+ GLOBAL STRENGTH INVARIANCE TEST 
+ Global strength per group:  1.498662 1.342867 
+ Test statistic S:  0.1557952 
+ p-value 0.4063745
+
+ EDGE INVARIANCE TEST 
+   Var1 Var2   p-value Test statistic E
+6  Flnk DCCS 1.0000000       0.06047470
+11 Flnk PnCn 1.0000000       0.09467332
+12 DCCS PnCn 0.5976096       0.15631770
+16 Flnk PSMT 1.0000000       0.06575524
+17 DCCS PSMT 1.0000000       0.02854074
+18 PnCn PSMT 1.0000000       0.01691322
+21 Flnk LtSg 1.0000000       0.00616976
+22 DCCS LtSg 1.0000000       0.02499756
+23 PnCn LtSg 1.0000000       0.13374832
+24 PSMT LtSg 1.0000000       0.07234582
+
+Late Adolescence vs. Adults
+---------------------------
+
+ NETWORK INVARIANCE TEST 
+ Test statistic M: 
+ 0.123711 
+ p-value 0.6932271 
+
+ GLOBAL STRENGTH INVARIANCE TEST 
+ Global strength per group:  1.598066 1.342867 
+ Test statistic S:  0.2551991 
+ p-value 0.2071713
+
+ EDGE INVARIANCE TEST 
+   Var1 Var2 p-value Test statistic E
+6  Flnk DCCS       1       0.02057993
+11 Flnk PnCn       1       0.06563057
+12 DCCS PnCn       1       0.06359151
+16 Flnk PSMT       1       0.06842160
+17 DCCS PSMT       1       0.12371098
+18 PnCn PSMT       1       0.05186580
+21 Flnk LtSg       1       0.03555080
+22 DCCS LtSg       1       0.04267136
+23 PnCn LtSg       1       0.02967185
+24 PSMT LtSg       1       0.01685047

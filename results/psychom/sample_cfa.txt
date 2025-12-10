@@ -1,0 +1,103 @@
+(STANDARDIZED) LOADINGS
+
+      CgCn  Mmry
+Flnk 0.751 0.000
+DCCS 0.872 0.000
+PnCn 0.765 0.000
+PSMT 0.000 0.591
+LtSg 0.000 0.660
+
+(STANDARDIZED) VARIANCES
+
+      Flnk  DCCS  PnCn  PSMT  LtSg
+Flnk 0.435                        
+DCCS 0.000 0.240                  
+PnCn 0.000 0.000 0.415            
+PSMT 0.000 0.000 0.000 0.651      
+LtSg 0.000 0.000 0.000 0.000 0.565
+
+(STANDARDIZED) COVARIANCES
+
+      CgCn  Mmry
+CgCn 1.000      
+Mmry 0.762 1.000
+
+FULL (UNSTANDARDIZED) SUMMARY OUTPUT
+
+lavaan 0.6-19 ended normally after 26 iterations
+
+  Estimator                                         ML
+  Optimization method                           NLMINB
+  Number of model parameters                        11
+
+  Number of observations                          1049
+
+Model Test User Model:
+                                                      
+  Test statistic                                 2.815
+  Degrees of freedom                                 4
+  P-value (Chi-square)                           0.589
+
+Model Test Baseline Model:
+
+  Test statistic                              1793.056
+  Degrees of freedom                                10
+  P-value                                        0.000
+
+User Model versus Baseline Model:
+
+  Comparative Fit Index (CFI)                    1.000
+  Tucker-Lewis Index (TLI)                       1.002
+
+Loglikelihood and Information Criteria:
+
+  Loglikelihood user model (H0)              -6544.711
+  Loglikelihood unrestricted model (H1)      -6543.303
+                                                      
+  Akaike (AIC)                               13111.422
+  Bayesian (BIC)                             13165.933
+  Sample-size adjusted Bayesian (SABIC)      13130.996
+
+Root Mean Square Error of Approximation:
+
+  RMSEA                                          0.000
+  90 Percent confidence interval - lower         0.000
+  90 Percent confidence interval - upper         0.040
+  P-value H_0: RMSEA <= 0.050                    0.987
+  P-value H_0: RMSEA >= 0.080                    0.000
+
+Standardized Root Mean Square Residual:
+
+  SRMR                                           0.008
+
+Parameter Estimates:
+
+  Standard errors                             Standard
+  Information                                 Expected
+  Information saturated (h1) model          Structured
+
+Latent Variables:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn =~                                             
+    Flnk              1.000                           
+    DCCS              1.160    0.046   25.340    0.000
+    PnCn              1.018    0.043   23.598    0.000
+  Mmry =~                                             
+    PSMT              1.000                           
+    LtSg              1.116    0.087   12.840    0.000
+
+Covariances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+  CgCn ~~                                             
+    Mmry              0.338    0.029   11.751    0.000
+
+Variances:
+                   Estimate  Std.Err  z-value  P(>|z|)
+   .Flnk              0.435    0.025   17.642    0.000
+   .DCCS              0.240    0.022   10.673    0.000
+   .PnCn              0.414    0.024   17.106    0.000
+   .PSMT              0.650    0.038   17.024    0.000
+   .LtSg              0.564    0.040   14.024    0.000
+    CgCn              0.564    0.042   13.336    0.000
+    Mmry              0.349    0.042    8.343    0.000
+

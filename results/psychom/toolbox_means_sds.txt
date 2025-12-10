@@ -1,0 +1,24 @@
+FLANKER
+-------
+Mean: 100.0877 
+Standard Deviation: 8.252453 
+
+DCCS
+----
+Mean: 103.0639 
+Standard Deviation: 10.69006 
+
+PATTERN COMPARISON
+------------------
+Mean: 106.8885 
+Standard Deviation: 21.0099 
+
+PSMT
+----
+Mean: 110.3851 
+Standard Deviation: 13.79645 
+
+LIST SORTING
+------------
+Mean: 106.0839 
+Standard Deviation: 10.97849 
