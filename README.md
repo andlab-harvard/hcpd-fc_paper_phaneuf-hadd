@@ -4,7 +4,7 @@ Data and Code
 
 *to accompany*
 
-Phaneuf-Hadd, C.V., Heffer, T., Mair, P., & Somerville, L.H. (under review). Charting Age-Related Change in the Architecture of Fluid Cognition. *Child Development*. doi: PENDING.
+Phaneuf-Hadd, C.V., Heffer, T., Mair, P., & Somerville, L.H. (2026). Charting Age-Related Change in the Architecture of Fluid Cognition. *Child Development*. doi: 10.1093/chidev/aacag100.
 
 ## Developer Contact Information
 
